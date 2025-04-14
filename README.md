@@ -1,13 +1,13 @@
-# Lager Addon for Vanilla WoW (v1.12)
+# Lager
 
-Lager is a super light-weight addon for World of Warcraft (version 1.12) that reduces lag by pausing superfluous combat logs.
+Lager is a light-weight addon for World of Warcraft (version 1.12) that reduces lag by pausing superfluous combat logs.
 
 
 ![preview](https://raw.githubusercontent.com/ZenSociety/ProjectImagesVault/refs/heads/main/lager1.png)
 
 ## How does 'Lager' work?
 
-You actually don’t need 'Lager' because this addon just automatically executes the following commands, which you can also input manually in-game:
+You actually don’t need 'Lager' because this addon just automatically executes the following commands, which you can also input one by one manually in-game:
 ```lua
 /run SetCVar("CombatLogRangeParty", 0)
 /run SetCVar("CombatLogRangePartyPet", 0)
