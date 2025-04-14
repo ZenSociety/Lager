@@ -2,10 +2,13 @@
 
 Lager is a super light-weight addon for World of Warcraft (version 1.12) that reduces lag by pausing superfluous combat logs.
 
+
+![preview](https://raw.githubusercontent.com/ZenSociety/ProjectImagesVault/refs/heads/main/lager1.png)
+
 ## How does 'Lager' work?
 
 You actually don’t need 'Lager' because this addon just automatically executes the following commands, which you can also input manually in-game:
-
+```lua
 /run SetCVar("CombatLogRangeParty", 0)
 /run SetCVar("CombatLogRangePartyPet", 0)
 /run SetCVar("CombatLogRangeFriendlyPlayers", 0)
@@ -13,6 +16,7 @@ You actually don’t need 'Lager' because this addon just automatically executes
 /run SetCVar("CombatLogRangeHostilePlayers", 0)
 /run SetCVar("CombatLogRangeHostilePlayersPets", 0)
 /run SetCVar("CombatDeathLogRange", 0)
+```
 
 The benefit of having this addon is, you can easily toggle it on and off at your convenience. I recommend activating it during intense 40-man raid combat and deactivating it when you're not experiencing lag.
 
@@ -25,8 +29,6 @@ When you activate 'Lager,' other combat-related addons, like the DPS meter, may 
 - Display current combat log status in the chat.
 - Minimap button for easy access and control.
 - Simple command interface for additional functionality.
-
-![preview](https://raw.githubusercontent.com/ZenSociety/ProjectImagesVault/refs/heads/main/lager1.png)
 
 ## Installation (Vanilla, 1.12)
 
